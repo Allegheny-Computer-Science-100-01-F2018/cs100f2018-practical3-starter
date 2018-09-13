@@ -55,12 +55,10 @@ tutors if you have questions about any of these reading assignments.
 
 ## Commands
 
-To get started in using the GatorGrader tool, you can change into the directory
+To get started in using the GatorGrader tool to automatically
+evaluate your assignment, you can change into the directory
 for this assignment and type the command `gradle grade` in your
-terminal. Now, if you want to perform all of the checks that will automatically
-evaluate your assignment, you can type the command `./gatorgrader.sh --check`.
-
-Running this command will produce a lot of output that you should carefully
+terminal. Running this command will produce a lot of output that you should carefully
 inspect. If the last line of the output indicates that GatorGrader judges that
 there are no mistakes in the assignment, then this means that your source code
 is passing all of the automated checks. However, if the last line
